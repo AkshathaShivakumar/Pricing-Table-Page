@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.pricingTable{
+    display: flex;
+}
+.basic{
+    width: 400px ;
+    height: auto;
+    border-radius: 23px solid black;
+}
+.pricingTable hr{
+    width: 50% ;
+    margin: auto;
+}
+
