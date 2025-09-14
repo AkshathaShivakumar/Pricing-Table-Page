@@ -4,14 +4,37 @@
 }
 .pricingTable{
     display: flex;
+    margin: 100px;
+    padding: 20px;
+    justify-content: space-around;
+}
+.heading{
+    width: 70px;
+    border: 2px solid #fff9f9;
+    border-radius: 18px ;
+    padding: 6px;
+    /* font-size:; */
+    color: rgb(212, 49, 212);
+    font-weight: bold;
+    background-color: white;
 }
 .basic{
-    width: 400px ;
+    width: 220px ;
     height: auto;
-    border-radius: 23px solid black;
+    border: 2px solid  rgb(212, 49, 212);
+    border-radius: 12px ;
+    padding: 10px;
+    background-color:rgb(212, 49, 212) ;
+    color: white;
+}
+.details {
+    padding: 10px;
 }
 .pricingTable hr{
     width: 50% ;
     margin: auto;
 }
-
+.price{
+    padding-left:65px;
+    margin: auto;
+}
